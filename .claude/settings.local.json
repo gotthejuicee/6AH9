@@ -1,0 +1,9 @@
+{
+  "permissions": {
+    "allow": [
+      "PowerShell(Get-ChildItem -Force | Select-Object Name, Length; \"Path: $\\(Get-Location\\)\")",
+      "PowerShell(try { $v = & python --version 2>&1; \"python says: $v\" } catch { \"python failed: $_\" })",
+      "mcp__Claude_Preview__preview_start"
+    ]
+  }
+}
